@@ -6,3 +6,4 @@ Les tests ne fonctionnent plus et nous avons l'erreur : "java : class, interface
 
 #4)
 Nous remarquons que la methode reverseSort() est en rouge car elle est à l'exterieur des balises de fermeture de la classe.
+Nous récupérons les erreurs sans pouvoir savoir au préalable qu'il y avait des erreurs au sein du projet.
