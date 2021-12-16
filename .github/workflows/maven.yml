@@ -34,6 +34,6 @@ jobs: # list des jobs à effectuer
           # Required mail subject:
           subject: TEST
           # Required recipients' addresses:
-          to: ${{secrets.EMAIL}}
+          to: theo.stringat@gmail.com
           # Required sender full name (address can be skipped):
-          from: test@test.com # <user@example.com>
+          from: iuts3.class@gmail.com # <user@example.com>
