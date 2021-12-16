@@ -13,3 +13,6 @@ Nous remarquons que que nous avons un nouveau répertoire à la racine de notre 
 
 #7)
 Nous avons déplacé la methode mergeSort à l'interieur de la classe 'SortAlgorithms.java'.
+
+#9)
+Les tests passent sauf le test qui doit fail
