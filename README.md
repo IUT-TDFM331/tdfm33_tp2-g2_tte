@@ -15,4 +15,7 @@ Nous remarquons que que nous avons un nouveau répertoire à la racine de notre 
 Nous avons déplacé la methode mergeSort à l'interieur de la classe 'SortAlgorithms.java'.
 
 #9)
-Les tests passent sauf le test qui doit fail
+Les tests passent sauf le test qui doit fail.
+
+#10)
+La validation n'a pas identifié l'erreur dans les tests. C'est normal car dans le processus de compilation du logiciel, on n'exécute pas les tests.
