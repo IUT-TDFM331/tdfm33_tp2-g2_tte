@@ -10,5 +10,6 @@ Nous récupérons les erreurs sans pouvoir savoir au préalable qu'il y avait de
 
 #6)
 Nous remarquons que que nous avons un nouveau répertoire à la racine de notre projet nommé '.github/workflows'.
-Les erreurs sont au niveau des 'branches'.
-Nous récupérons les erreurs du répertoire sans pouvoir savoir au préalable qu'il y avait des erreurs au sein du projet.
+
+#7)
+Nous avons déplacé la methode mergeSort à l'interieur de la classe 'SortAlgorithms.java'.
