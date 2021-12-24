@@ -40,4 +40,8 @@ jobs: # list des jobs à effectuer
       - name: Slack Notification
           uses: rtCamp/action-slack-notify@v2
           env:
+            SLACK_CHANNEL: général
+            SLACK_MESSAGE: ‘Please review on https://github.com/YOUR_PATH/YOUR_REPO_NAME/pull/${{ env.pull_number}}’
+            SLACK_TITLE: ‘Pull request’
+            SLACK_USERNAME: ‘theo.stringat’
             SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
