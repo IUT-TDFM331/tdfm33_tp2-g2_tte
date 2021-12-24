@@ -38,7 +38,7 @@ jobs: # list des jobs à effectuer
           # Required sender full name (address can be skipped):
           from: iuts3.class@gmail.com # <user@example.com>
       - name: Slack Notification
-          uses: rtCamp/action-slack-notify@master
+          uses: theo.stringat/action-slack-notify@master
           env:
             SLACK_CHANNEL: général
             SLACK_MESSAGE: ‘message de test !’
