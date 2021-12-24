@@ -69,8 +69,7 @@ class SortAlgorithmsTest {
         assertTrue(input[0] >= valueToTest);
         assertTrue(valueToTest <= input[input.length - 1]);
     }
-
-
+    //commentaire de test pull-request
     void testSortingAlgorithm(Integer[] input) {
         int length = input.length;
         SortAlgorithms.bubbleSort(input);
